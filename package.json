@@ -1,5 +1,5 @@
 {
-  "name": "atom-shadowenv",
+  "name": "0-shadowenv",
   "main": "./lib/atom-shadowenv",
   "version": "0.1.0",
   "description": "Load Shadowenv when opening a project in Atom",
