@@ -1,8 +1,8 @@
 {
   "name": "atom-shadowenv",
   "main": "./lib/atom-shadowenv",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Load Shadowenv when opening a project in Atom",
   "keywords": [
   ],
   "repository": "https://github.com/Shopify/atom-shadowenv",
