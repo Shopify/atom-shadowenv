@@ -1,0 +1,40 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Shadowenv version",
+        "command": "atom-shadowenv:version"
+      },
+      {
+        "label": "Shadowenv version",
+        "command": "atom-shadowenv:load"
+      },
+
+      {
+        "label": "Mark Shadowenv for this directory as trusted",
+        "command": "atom-shadowenv:trust"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Shadowenv",
+          "submenu": [
+            {
+              "label": "Show Shadowenv version",
+              "command": "atom-shadowenv:version"
+            },
+            {
+              "label": "Trust Shadowenv",
+              "command": "atom-shadowenv:trust"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}
